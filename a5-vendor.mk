@@ -20,7 +20,9 @@ PRODUCT_PACKAGES := \
     LiveWallpapersPicker \
     MagicSmokeWallpapers \
     VisualizationWallpapers \
-    librs_jni
+    librs_jni \
+    libHevcSwDecoder \
+    libtime_genoff
 
 # Publish that we support the live wallpaper feature.
 PRODUCT_COPY_FILES := \
